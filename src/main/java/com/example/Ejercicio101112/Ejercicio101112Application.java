@@ -1,7 +1,7 @@
-package com.example.Ejercicio789;
+package com.example.Ejercicio101112;
 
-import com.example.Ejercicio789.entities.Laptop;
-import com.example.Ejercicio789.repository.LaptopRepository;
+import com.example.Ejercicio101112.entities.Laptop;
+import com.example.Ejercicio101112.repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 //estos escaneara todos los beans
 
-public class Ejercicio789Application {
+public class Ejercicio101112Application {
 
 	public static void main(String[] args) {
-		ApplicationContext context =SpringApplication.run(Ejercicio456Application.class, args);
+		ApplicationContext context =SpringApplication.run(Ejercicio101112Application.class, args);
 		LaptopRepository repository = context.getBean(LaptopRepository.class);
 
 		//CRUD

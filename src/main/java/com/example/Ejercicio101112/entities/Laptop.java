@@ -1,8 +1,6 @@
-package com.example.Ejercicio456.entities;
+package com.example.Ejercicio101112.entities;
 
 import jakarta.persistence.*;
-
-import java.time.LocalDate;
 
 
 @Entity

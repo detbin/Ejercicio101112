@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Ejercicio456</artifactId>
+	<artifactId>Ejercicio101112</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Ejercicio4-1</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Ejercicio101112</name>
+	<description>Ejercicio101112</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -42,6 +42,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

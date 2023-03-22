@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
    @Value("${app.message}")
    String message;
-    @GetMapping("/hola")
+    @GetMapping("/")
     //get mapping nos abrira en el puerto correspondiente aqui el 3000 la url /hola
 
     public String holamundo(){
